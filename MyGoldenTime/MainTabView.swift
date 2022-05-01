@@ -10,19 +10,22 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("1")
+            Text("상태입력 뷰")
                 .tabItem {
-                    Image(systemName: "house")
+                    Image(systemName: "pencil.circle")
+                    Text("상태입력")
                 }
             
-            Text("2")
+            Text("차트 뷰")
                 .tabItem {
-                    Image(systemName: "house")
+                    Image(systemName: "chart.line.uptrend.xyaxis")
+                    Text("차트")
                 }
             
-            Text("3")
+            Text("기록 뷰")
                 .tabItem {
-                    Image(systemName: "house")
+                    Image(systemName: "doc")
+                    Text("기록")
                 }
         }
     }
