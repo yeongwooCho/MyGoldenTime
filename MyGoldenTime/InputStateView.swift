@@ -9,7 +9,37 @@ import SwiftUI
 
 struct InputStateView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Text("!23")
+ 
+                VStack {
+                    Text("asdf")
+                    Text("asdf")
+                } // VStack
+                
+                VStack {
+                    HStack {
+                        Text("에너지 상태")
+                        Text("asdf")
+                    } // HStack
+                    HStack {
+                        Text("집중력 상태")
+                        Text("asdf")
+                    } // HStack
+                } // VStack
+            } // VStack
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: Text("설정")) {
+                        Image(systemName: "gear")
+                            .font(.system(size: 25))
+                            .foregroundColor(.black)
+
+                    }
+                }
+            }
+        } // NavigationView
     }
 }
 
