@@ -8,8 +8,39 @@
 import SwiftUI
 
 struct SettingView: View {
+    
+    @State private var isAlert = true
+    
+    @State private var bedTime = Date()
+    @State private var wakeupTime = Date()
+
     var body: some View {
-        Text("Hello world")
+        GeometryReader { proxy in
+            NavigationView {
+                VStack(alignment: .leading, spacing: 20) {
+                    Toggle(isOn: $isAlert) {
+                        Text("알림")
+                            .fontWeight(.bold)
+                    }
+                    
+                    DatePicker(selection: $bedTime, displayedComponents: [.hourAndMinute]) {
+                        Text("취침 시간")
+                            .fontWeight(.bold)
+                    }
+                    
+                    DatePicker(selection: $wakeupTime, displayedComponents: [.hourAndMinute]) {
+                        Text("기상 시간")
+                            .fontWeight(.bold)
+                    }
+                } // VStack
+                .padding(20)
+                .frame(width: proxy.size.width - 40, height: 200)
+                .background()
+                .cornerRadius(20)
+                .shadow(color: .gray, radius: 10, x: 5, y: 5)
+            } // NavigationView
+        } // GeometryReader
+    }
 }
 
 struct SettingView_Previews: PreviewProvider {
