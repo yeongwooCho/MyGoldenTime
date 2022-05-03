@@ -65,6 +65,21 @@ struct InputStateView: View {
                     .background()
                     .cornerRadius(20)
                     .shadow(color: .gray, radius: 10, x: 5, y: 5)
+                    
+                    Button {
+                        print(inputWhatTodo)
+                        print(inputWhyTodo)
+                        print(seletedEnergyState)
+                        print(seletedConcentrationState)
+                    } label: {
+                        Text("입력하기")
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                            .frame(width: proxy.size.width - 40, height: 50)
+                            .background(Color.blue)
+                            .cornerRadius(15)
+                    }
+
                 } // VStack
                 .navigationTitle("상태 입력")
                 .toolbar {
@@ -77,6 +92,7 @@ struct InputStateView: View {
                     }
                 }
             } // NavigationView
+            .navigationViewStyle(.stack)
         } // GeometryReader
     }
 }
