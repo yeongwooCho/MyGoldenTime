@@ -10,7 +10,7 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Text("상태입력 뷰")
+            InputStateView()
                 .tabItem {
                     Image(systemName: "pencil.circle")
                     Text("상태입력")

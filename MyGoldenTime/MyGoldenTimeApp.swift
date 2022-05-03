@@ -11,7 +11,7 @@ import SwiftUI
 struct MyGoldenTimeApp: App {
     var body: some Scene {
         WindowGroup {
-            InputStateView()
+            MainTabView()
         }
     }
 }
