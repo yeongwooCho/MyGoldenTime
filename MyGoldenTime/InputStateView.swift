@@ -84,7 +84,7 @@ struct InputStateView: View {
                 .navigationTitle("상태 입력")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
-                        NavigationLink(destination: Text("설정")) {
+                        NavigationLink(destination: SettingView()) {
                             Image(systemName: "gear")
                                 .font(.system(size: 25))
                                 .foregroundColor(.black)
