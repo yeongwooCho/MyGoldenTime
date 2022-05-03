@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F7C281ED38D00207317 /* MainTabView.swift */; };
 		43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F80281F5C3B00207317 /* InputStateView.swift */; };
+		43AE65182820BAF500C8513C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE65172820BAF500C8513C /* SettingView.swift */; };
 		43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */; };
 		43F9B3D0281A3FFB005122C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3CF281A3FFB005122C7 /* Assets.xcassets */; };
 		43F9B3D3281A3FFB005122C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* Begin PBXFileReference section */
 		43A99F7C281ED38D00207317 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		43A99F80281F5C3B00207317 /* InputStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStateView.swift; sourceTree = "<group>"; };
+		43AE65172820BAF500C8513C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoldenTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoldenTimeApp.swift; sourceTree = "<group>"; };
 		43F9B3CF281A3FFB005122C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				43F9B3D1281A3FFB005122C7 /* Preview Content */,
 				43A99F7C281ED38D00207317 /* MainTabView.swift */,
 				43A99F80281F5C3B00207317 /* InputStateView.swift */,
+				43AE65172820BAF500C8513C /* SettingView.swift */,
 			);
 			path = MyGoldenTime;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */,
+				43AE65182820BAF500C8513C /* SettingView.swift in Sources */,
 				43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */,
 				43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */,
 			);
