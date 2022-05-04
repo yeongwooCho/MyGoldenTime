@@ -14,6 +14,7 @@
 		43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F80281F5C3B00207317 /* InputStateView.swift */; };
 		43AE65182820BAF500C8513C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE65172820BAF500C8513C /* SettingView.swift */; };
 		43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE651C2820DB0600C8513C /* ChartsView.swift */; };
+		43C348A1282265AD003D39C9 /* StateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C348A0282265AD003D39C9 /* StateInfo.swift */; };
 		43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */; };
 		43F9B3D0281A3FFB005122C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3CF281A3FFB005122C7 /* Assets.xcassets */; };
 		43F9B3D3281A3FFB005122C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		43A99F80281F5C3B00207317 /* InputStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStateView.swift; sourceTree = "<group>"; };
 		43AE65172820BAF500C8513C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		43AE651C2820DB0600C8513C /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		43C348A0282265AD003D39C9 /* StateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateInfo.swift; sourceTree = "<group>"; };
 		43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoldenTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoldenTimeApp.swift; sourceTree = "<group>"; };
 		43F9B3CF281A3FFB005122C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43C3489F282264C4003D39C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43C348A0282265AD003D39C9 /* StateInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		43F9B3BF281A3FF9005122C7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		43F9B3CA281A3FF9005122C7 /* MyGoldenTime */ = {
 			isa = PBXGroup;
 			children = (
+				43C3489F282264C4003D39C9 /* Model */,
 				43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */,
 				43F9B3CF281A3FFB005122C7 /* Assets.xcassets */,
 				43F9B3D1281A3FFB005122C7 /* Preview Content */,
@@ -165,6 +176,7 @@
 				43AE65182820BAF500C8513C /* SettingView.swift in Sources */,
 				43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */,
 				43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */,
+				43C348A1282265AD003D39C9 /* StateInfo.swift in Sources */,
 				43429D36282221FE005E7595 /* Line.swift in Sources */,
 				43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */,
 			);
