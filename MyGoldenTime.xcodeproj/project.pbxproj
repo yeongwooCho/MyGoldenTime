@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43429D3228221FD3005E7595 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 43429D3128221FD3005E7595 /* Charts */; };
+		43429D36282221FE005E7595 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D35282221FE005E7595 /* Line.swift */; };
+		43429D3828222591005E7595 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D3728222591005E7595 /* LineCharts.swift */; };
 		43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F7C281ED38D00207317 /* MainTabView.swift */; };
 		43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F80281F5C3B00207317 /* InputStateView.swift */; };
 		43AE65182820BAF500C8513C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE65172820BAF500C8513C /* SettingView.swift */; };
-		43AE651B2820DAD500C8513C /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 43AE651A2820DAD500C8513C /* SwiftUICharts */; };
 		43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE651C2820DB0600C8513C /* ChartsView.swift */; };
 		43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */; };
 		43F9B3D0281A3FFB005122C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3CF281A3FFB005122C7 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43429D35282221FE005E7595 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		43429D3728222591005E7595 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		43A99F7C281ED38D00207317 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		43A99F80281F5C3B00207317 /* InputStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStateView.swift; sourceTree = "<group>"; };
 		43AE65172820BAF500C8513C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -33,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43AE651B2820DAD500C8513C /* SwiftUICharts in Frameworks */,
+				43429D3228221FD3005E7595 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +70,8 @@
 				43A99F80281F5C3B00207317 /* InputStateView.swift */,
 				43AE65172820BAF500C8513C /* SettingView.swift */,
 				43AE651C2820DB0600C8513C /* ChartsView.swift */,
+				43429D35282221FE005E7595 /* Line.swift */,
+				43429D3728222591005E7595 /* LineCharts.swift */,
 			);
 			path = MyGoldenTime;
 			sourceTree = "<group>";
@@ -95,7 +101,7 @@
 			);
 			name = MyGoldenTime;
 			packageProductDependencies = (
-				43AE651A2820DAD500C8513C /* SwiftUICharts */,
+				43429D3128221FD3005E7595 /* Charts */,
 			);
 			productName = MyGoldenTime;
 			productReference = 43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */;
@@ -126,7 +132,7 @@
 			);
 			mainGroup = 43F9B3BF281A3FF9005122C7;
 			packageReferences = (
-				43AE65192820DAD500C8513C /* XCRemoteSwiftPackageReference "ChartView" */,
+				43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 43F9B3C9281A3FF9005122C7 /* Products */;
 			projectDirPath = "";
@@ -154,10 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43429D3828222591005E7595 /* LineCharts.swift in Sources */,
 				43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */,
 				43AE65182820BAF500C8513C /* SettingView.swift in Sources */,
 				43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */,
 				43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */,
+				43429D36282221FE005E7595 /* Line.swift in Sources */,
 				43A99F81281F5C3B00207317 /* InputStateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,21 +369,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		43AE65192820DAD500C8513C /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
+			repositoryURL = "https://github.com/danielgindi/Charts";
 			requirement = {
-				kind = exactVersion;
-				version = "2.0.0-beta.2";
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		43AE651A2820DAD500C8513C /* SwiftUICharts */ = {
+		43429D3128221FD3005E7595 /* Charts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 43AE65192820DAD500C8513C /* XCRemoteSwiftPackageReference "ChartView" */;
-			productName = SwiftUICharts;
+			package = 43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
