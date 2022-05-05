@@ -12,6 +12,16 @@ struct Line: UIViewRepresentable {
     //Bar chart accepts data as array of BarChartDataEntry objects
 //    var entries : [LineChartDataEntry]
 //    var entries: [ChartDataEntry]
+    var entries: [StateInfo] = [
+        StateInfo(shortDate: "1", longDate: "12341234", energy: 1, consentration: 3),
+        StateInfo(shortDate: "3", longDate: "12341234", energy: 3, consentration: 2),
+        StateInfo(shortDate: "5", longDate: "12341234", energy: 2, consentration: 1),
+        StateInfo(shortDate: "7", longDate: "12341234", energy: 5, consentration: 5),
+        StateInfo(shortDate: "9", longDate: "12341234", energy: 5, consentration: 4),
+        StateInfo(shortDate: "11", longDate: "12341234", energy: 4, consentration: 5),
+        StateInfo(shortDate: "13", longDate: "12341234", energy: 2, consentration: 5),
+        
+    ]
     
     // this func is required to conform to UIViewRepresentable protocol
     func makeUIView(context: Context) -> LineChartView {
@@ -19,7 +29,8 @@ struct Line: UIViewRepresentable {
         let chart = LineChartView()
         //it is convenient to form chart data in a separate func
 //        chart.setupLineChartsView(inputData: ["12":123])
-        chart.setupLineChartsView(stateInfos: [StateInfo(shortDate: "123", longDate: "12341234", energy: 5, consentration: 3)])
+//        chart.setupLineChartsView(stateInfos: [StateInfo(shortDate: "123", longDate: "12341234", energy: 5, consentration: 3)])
+        chart.setupLineChartsView(stateInfos: entries)
         
 //        chart.data = addData()
         return chart
