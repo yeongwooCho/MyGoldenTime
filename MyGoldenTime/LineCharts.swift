@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import UIKit
 import Charts
 
 extension LineChartView {
 
-    private class LineChartFormatter: NSObject, IAxisValueFormatter {
+    private class LineChartFormatter: NSObject, AxisValueFormatter {
         
         var labels: [String] = []
         

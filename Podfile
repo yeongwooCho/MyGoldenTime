@@ -5,7 +5,7 @@ target 'MyGoldenTime' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Charts'
+  pod 'Charts', '~> 4.0.0'
   pod 'SpreadsheetView'
 
   # Pods for MyGoldenTime
