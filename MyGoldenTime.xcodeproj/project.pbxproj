@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43429D3228221FD3005E7595 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 43429D3128221FD3005E7595 /* Charts */; };
+		4316BF052823B158005FD8A0 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF042823B158005FD8A0 /* RecordView.swift */; };
+		4316BF072823EA1F005FD8A0 /* SpreadsheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF062823EA1F005FD8A0 /* SpreadsheetCell.swift */; };
+		4316BF092823EBEE005FD8A0 /* Spreadsheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF082823EBEE005FD8A0 /* Spreadsheet.swift */; };
+		4316BF0B2823EDF2005FD8A0 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF0A2823EDF2005FD8A0 /* RecordViewController.swift */; };
+		4316BF0E2823EE82005FD8A0 /* SpreadsheetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF0D2823EE82005FD8A0 /* SpreadsheetData.swift */; };
 		43429D36282221FE005E7595 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D35282221FE005E7595 /* Line.swift */; };
 		43429D3828222591005E7595 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D3728222591005E7595 /* LineCharts.swift */; };
 		43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F7C281ED38D00207317 /* MainTabView.swift */; };
@@ -18,9 +22,17 @@
 		43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */; };
 		43F9B3D0281A3FFB005122C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3CF281A3FFB005122C7 /* Assets.xcassets */; };
 		43F9B3D3281A3FFB005122C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */; };
+		542A866885D8CBD90425F629 /* Pods_MyGoldenTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoldenTime.debug.xcconfig"; path = "Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGoldenTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316BF042823B158005FD8A0 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		4316BF062823EA1F005FD8A0 /* SpreadsheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetCell.swift; sourceTree = "<group>"; };
+		4316BF082823EBEE005FD8A0 /* Spreadsheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spreadsheet.swift; sourceTree = "<group>"; };
+		4316BF0A2823EDF2005FD8A0 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		4316BF0D2823EE82005FD8A0 /* SpreadsheetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsheetData.swift; sourceTree = "<group>"; };
 		43429D35282221FE005E7595 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		43429D3728222591005E7595 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		43A99F7C281ED38D00207317 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -32,6 +44,7 @@
 		43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoldenTimeApp.swift; sourceTree = "<group>"; };
 		43F9B3CF281A3FFB005122C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoldenTime.release.xcconfig"; path = "Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +52,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43429D3228221FD3005E7595 /* Charts in Frameworks */,
+				542A866885D8CBD90425F629 /* Pods_MyGoldenTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4316BF0C2823EE31005FD8A0 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				4316BF042823B158005FD8A0 /* RecordView.swift */,
+				4316BF082823EBEE005FD8A0 /* Spreadsheet.swift */,
+				4316BF0A2823EDF2005FD8A0 /* RecordViewController.swift */,
+				4316BF062823EA1F005FD8A0 /* SpreadsheetCell.swift */,
+				4316BF0D2823EE82005FD8A0 /* SpreadsheetData.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
 		43C3489F282264C4003D39C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +84,8 @@
 			children = (
 				43F9B3CA281A3FF9005122C7 /* MyGoldenTime */,
 				43F9B3C9281A3FF9005122C7 /* Products */,
+				ED92A7E372EB95743036DA82 /* Pods */,
+				F2714E1C6F863E7BB21E439B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +110,7 @@
 				43AE651C2820DB0600C8513C /* ChartsView.swift */,
 				43429D35282221FE005E7595 /* Line.swift */,
 				43429D3728222591005E7595 /* LineCharts.swift */,
+				4316BF0C2823EE31005FD8A0 /* Record */,
 			);
 			path = MyGoldenTime;
 			sourceTree = "<group>";
@@ -95,6 +123,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		ED92A7E372EB95743036DA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */,
+				97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2714E1C6F863E7BB21E439B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,18 +147,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F9B3D6281A3FFB005122C7 /* Build configuration list for PBXNativeTarget "MyGoldenTime" */;
 			buildPhases = (
+				E8D51C0EFA2F606D3992F466 /* [CP] Check Pods Manifest.lock */,
 				43F9B3C4281A3FF9005122C7 /* Sources */,
 				43F9B3C5281A3FF9005122C7 /* Frameworks */,
 				43F9B3C6281A3FF9005122C7 /* Resources */,
+				63D506119C73795CD3CFD24C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyGoldenTime;
-			packageProductDependencies = (
-				43429D3128221FD3005E7595 /* Charts */,
-			);
 			productName = MyGoldenTime;
 			productReference = 43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */;
 			productType = "com.apple.product-type.application";
@@ -142,9 +186,6 @@
 				Base,
 			);
 			mainGroup = 43F9B3BF281A3FF9005122C7;
-			packageReferences = (
-				43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */,
-			);
 			productRefGroup = 43F9B3C9281A3FF9005122C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,15 +207,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63D506119C73795CD3CFD24C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D51C0EFA2F606D3992F466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGoldenTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43F9B3C4281A3FF9005122C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4316BF072823EA1F005FD8A0 /* SpreadsheetCell.swift in Sources */,
 				43429D3828222591005E7595 /* LineCharts.swift in Sources */,
+				4316BF052823B158005FD8A0 /* RecordView.swift in Sources */,
+				4316BF0B2823EDF2005FD8A0 /* RecordViewController.swift in Sources */,
 				43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */,
 				43AE65182820BAF500C8513C /* SettingView.swift in Sources */,
+				4316BF0E2823EE82005FD8A0 /* SpreadsheetData.swift in Sources */,
 				43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */,
+				4316BF092823EBEE005FD8A0 /* Spreadsheet.swift in Sources */,
 				43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */,
 				43C348A1282265AD003D39C9 /* StateInfo.swift in Sources */,
 				43429D36282221FE005E7595 /* Line.swift in Sources */,
@@ -301,6 +389,7 @@
 		};
 		43F9B3D7281A3FFB005122C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +419,7 @@
 		};
 		43F9B3D8281A3FFB005122C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -379,25 +469,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		43429D3128221FD3005E7595 /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43F9B3C0281A3FF9005122C7 /* Project object */;
 }

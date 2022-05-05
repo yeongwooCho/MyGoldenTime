@@ -8,8 +8,8 @@
 import Foundation
 
 struct StateInfo: Codable {
-    var shortDate: String // dd-MM hh ??
-    var longDate: String // yyyy-dd-MM hh ??
+    var date: String // dd-MM hh ??
+    var hour: Int // hour
     var what: String?
     var why: String?
     var energy: Int
