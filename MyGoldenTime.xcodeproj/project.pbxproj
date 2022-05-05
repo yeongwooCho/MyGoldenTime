@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43429D3228221FD3005E7595 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 43429D3128221FD3005E7595 /* Charts */; };
 		43429D36282221FE005E7595 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D35282221FE005E7595 /* Line.swift */; };
 		43429D3828222591005E7595 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D3728222591005E7595 /* LineCharts.swift */; };
 		43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F7C281ED38D00207317 /* MainTabView.swift */; };
@@ -39,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43429D3228221FD3005E7595 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +110,6 @@
 			);
 			name = MyGoldenTime;
 			packageProductDependencies = (
-				43429D3128221FD3005E7595 /* Charts */,
 			);
 			productName = MyGoldenTime;
 			productReference = 43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */;
@@ -143,7 +140,6 @@
 			);
 			mainGroup = 43F9B3BF281A3FF9005122C7;
 			packageReferences = (
-				43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 43F9B3C9281A3FF9005122C7 /* Products */;
 			projectDirPath = "";
@@ -379,25 +375,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		43429D3128221FD3005E7595 /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 43429D3028221FD3005E7595 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43F9B3C0281A3FF9005122C7 /* Project object */;
 }
