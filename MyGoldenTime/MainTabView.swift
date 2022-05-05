@@ -22,7 +22,7 @@ struct MainTabView: View {
                     Text("차트")
                 }
             
-            Text("기록 뷰")
+            RecordView()
                 .tabItem {
                     Image(systemName: "doc")
                     Text("기록")

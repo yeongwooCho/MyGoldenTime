@@ -9,7 +9,16 @@ import SwiftUI
 
 struct RecordView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text("기록")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                Spacer()
+            } // HStack
+            .padding(20)
+            Spreadsheet()
+        }
     }
 }
 
