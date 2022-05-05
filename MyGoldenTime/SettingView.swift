@@ -16,8 +16,8 @@ struct SettingView: View {
 
     var body: some View {
         GeometryReader { proxy in
-            NavigationView {
-                VStack(alignment: .leading, spacing: 20) {
+            VStack {
+                VStack(alignment: .center, spacing: 20) {
                     Toggle(isOn: $isAlert) {
                         Text("알림")
                             .fontWeight(.bold)
@@ -38,7 +38,11 @@ struct SettingView: View {
                 .background()
                 .cornerRadius(20)
                 .shadow(color: .gray, radius: 10, x: 5, y: 5)
-            } // NavigationView
+                .padding(.vertical, 20)
+                .navigationTitle("설정")
+                
+                Divider().opacity(0)
+            }
         } // GeometryReader
     }
 }
