@@ -5,8 +5,6 @@
 //  Created by yeongwoocho on 2022/05/04.
 //
 
-import SwiftUI
-import UIKit
 import Charts
 
 extension LineChartView {
