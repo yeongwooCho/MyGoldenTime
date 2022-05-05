@@ -12,10 +12,8 @@ struct ChartsView: View {
     
     var body: some View {
         VStack {
-            Text("asdf")
-
             Line()
-            
+                .frame(width: 300, height: 300)
         }
         .padding()
     }

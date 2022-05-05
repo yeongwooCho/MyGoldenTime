@@ -73,22 +73,15 @@ extension LineChartView {
 }
 
 extension LineChartView {
-    func setupLineChartsView(inputData: [String: Double]) {
-        if !inputData.isEmpty {
-//            let labels = orderCount.map { ($0.order_date) }
-//            let totalValues = orderCount.map { Double($0.order_count) }
-//            let validValues = orderCount.map { Double($0.order_valid_count) }
-            
-            let labels = inputData.map { ($0.key) }
-            let values = inputData.map { Double($0.value) }
+    func setupLineChartsView(stateInfos: [StateInfo]) {
+        if !stateInfos.isEmpty {
+            let labels = stateInfos.map { ($0.shortDate) }
+            let energyValues = stateInfos.map { Double($0.energy) }
+            let consentrationValues = stateInfos.map { Double($0.consentration) }
 
-            let data = self.getLineChartData(yValues: values, label: "에너지", lineColor: UIColor.red)
-            self.setLineChart(xValues: labels, chartDataSets: [data])
-            
-//            let totalData = self.getLineChartData(yValues: totalValues, label: "전체 오더 수", lineColor: UIColor.ocRed7)
-//            let validData = self.getLineChartData(yValues: validValues, label: "유효 오더 수", lineColor: UIColor.ocYellow7)
-//            self.setLineChart(xValues: labels, chartDataSets: [validData, totalData])
-            
+            let energyData = self.getLineChartData(yValues: energyValues, label: "에너지 상태", lineColor: UIColor.red)
+            let consentrationData = self.getLineChartData(yValues: consentrationValues, label: "집중력 상태", lineColor: UIColor.blue)
+            self.setLineChart(xValues: labels, chartDataSets: [energyData, consentrationData])
         } else {
             self.noDataText = "에너지 데이터가 존재하지 않습니다."
             self.data = .none

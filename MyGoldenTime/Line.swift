@@ -18,7 +18,9 @@ struct Line: UIViewRepresentable {
         //crate new chart
         let chart = LineChartView()
         //it is convenient to form chart data in a separate func
-        chart.setupLineChartsView(inputData: ["12":123])
+//        chart.setupLineChartsView(inputData: ["12":123])
+        chart.setupLineChartsView(stateInfos: [StateInfo(shortDate: "123", longDate: "12341234", energy: 5, consentration: 3)])
+        
 //        chart.data = addData()
         return chart
     }
@@ -49,8 +51,8 @@ struct Line: UIViewRepresentable {
     typealias UIViewType = LineChartView
 }
 
-//struct Line_Previews: PreviewProvider {
-//    static var previews: some View {
+struct Line_Previews: PreviewProvider {
+    static var previews: some View {
 //        Line(entries: [
 //            //x - position of a bar, y - height of a bar
 //            ChartDataEntry(x: 1, y: 1),
@@ -58,7 +60,8 @@ struct Line: UIViewRepresentable {
 //            ChartDataEntry(x: 3, y: 1),
 //            ChartDataEntry(x: 4, y: 1),
 //            ChartDataEntry(x: 5, y: 1)
-//            
+//
 //        ])
-//    }
-//}
+        Line()
+    }
+}
