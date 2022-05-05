@@ -27,6 +27,7 @@ struct ChartsView: View {
                         Spacer()
                     } // HStack
                     Line()
+                        .allowsHitTesting(false)
                 } // VStack
                 .padding(10)
                 .frame(width: proxy.size.width - 40, height: 300)
@@ -42,6 +43,7 @@ struct ChartsView: View {
                         Spacer()
                     } // HStack
                     Line()
+                        .allowsHitTesting(false)
                 } // VStack
                 .padding(10)
                 .frame(width: proxy.size.width - 40, height: 300)
@@ -57,6 +59,7 @@ struct ChartsView: View {
                         Spacer()
                     } // HStack
                     Line()
+                        .allowsHitTesting(false)
                 } // VStack
                 .padding(10)
                 .frame(width: proxy.size.width - 40, height: 300)
