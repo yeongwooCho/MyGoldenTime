@@ -79,8 +79,10 @@ struct InputStateView: View {
                             .background(Color.blue)
                             .cornerRadius(15)
                     }
-
+                    
+                    Spacer()
                 } // VStack
+                .padding(.vertical, 20)
                 .navigationTitle("상태 입력")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
