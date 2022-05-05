@@ -16,7 +16,7 @@ struct MainTabView: View {
                     Text("상태입력")
                 }
             
-            Text("차트 뷰")
+            ChartsView()
                 .tabItem {
                     Image(systemName: "chart.line.uptrend.xyaxis")
                     Text("차트")
