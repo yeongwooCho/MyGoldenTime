@@ -13,8 +13,6 @@ struct Spreadsheet: UIViewControllerRepresentable {
     
     typealias UIViewControllerType = RecordViewController
     
-    var salesSpreadsheetData: SalesSpreadsheetData = SalesSpreadsheetData()
-    
     func makeUIViewController(context: Context) -> RecordViewController {
         return RecordViewController()
     }

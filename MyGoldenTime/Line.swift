@@ -13,13 +13,13 @@ struct Line: UIViewRepresentable {
 //    var entries : [LineChartDataEntry]
 //    var entries: [ChartDataEntry]
     var entries: [StateInfo] = [
-        StateInfo(shortDate: "1", longDate: "12341234", energy: 1, consentration: 3),
-        StateInfo(shortDate: "3", longDate: "12341234", energy: 3, consentration: 2),
-        StateInfo(shortDate: "5", longDate: "12341234", energy: 2, consentration: 1),
-        StateInfo(shortDate: "7", longDate: "12341234", energy: 5, consentration: 5),
-        StateInfo(shortDate: "9", longDate: "12341234", energy: 5, consentration: 4),
-        StateInfo(shortDate: "11", longDate: "12341234", energy: 4, consentration: 5),
-        StateInfo(shortDate: "13", longDate: "12341234", energy: 2, consentration: 5),
+        StateInfo(date: "1", hour: 13, energy: 1, consentration: 3),
+        StateInfo(date: "3", hour: 15, energy: 3, consentration: 2),
+        StateInfo(date: "5", hour: 12, energy: 2, consentration: 1),
+        StateInfo(date: "7", hour: 10, energy: 5, consentration: 5),
+        StateInfo(date: "9", hour: 8, energy: 5, consentration: 4),
+        StateInfo(date: "11", hour: 7, energy: 4, consentration: 5),
+        StateInfo(date: "13", hour: 6, energy: 2, consentration: 5),
         
     ]
     

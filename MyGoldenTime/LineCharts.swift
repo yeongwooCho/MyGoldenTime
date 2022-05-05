@@ -74,7 +74,7 @@ extension LineChartView {
 extension LineChartView {
     func setupLineChartsView(stateInfos: [StateInfo]) {
         if !stateInfos.isEmpty {
-            let labels = stateInfos.map { ($0.shortDate) }
+            let labels = stateInfos.map { ($0.date) }
             let energyValues = stateInfos.map { Double($0.energy) }
             let consentrationValues = stateInfos.map { Double($0.consentration) }
 
