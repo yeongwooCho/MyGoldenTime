@@ -17,9 +17,12 @@
 		43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */; };
 		43F9B3D0281A3FFB005122C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3CF281A3FFB005122C7 /* Assets.xcassets */; };
 		43F9B3D3281A3FFB005122C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */; };
+		542A866885D8CBD90425F629 /* Pods_MyGoldenTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoldenTime.debug.xcconfig"; path = "Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGoldenTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43429D35282221FE005E7595 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		43429D3728222591005E7595 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		43A99F7C281ED38D00207317 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		43F9B3CB281A3FF9005122C7 /* MyGoldenTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoldenTimeApp.swift; sourceTree = "<group>"; };
 		43F9B3CF281A3FFB005122C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F9B3D2281A3FFB005122C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoldenTime.release.xcconfig"; path = "Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542A866885D8CBD90425F629 /* Pods_MyGoldenTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +62,8 @@
 			children = (
 				43F9B3CA281A3FF9005122C7 /* MyGoldenTime */,
 				43F9B3C9281A3FF9005122C7 /* Products */,
+				ED92A7E372EB95743036DA82 /* Pods */,
+				F2714E1C6F863E7BB21E439B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +100,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		ED92A7E372EB95743036DA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */,
+				97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2714E1C6F863E7BB21E439B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,17 +125,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43F9B3D6281A3FFB005122C7 /* Build configuration list for PBXNativeTarget "MyGoldenTime" */;
 			buildPhases = (
+				E8D51C0EFA2F606D3992F466 /* [CP] Check Pods Manifest.lock */,
 				43F9B3C4281A3FF9005122C7 /* Sources */,
 				43F9B3C5281A3FF9005122C7 /* Frameworks */,
 				43F9B3C6281A3FF9005122C7 /* Resources */,
+				63D506119C73795CD3CFD24C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyGoldenTime;
-			packageProductDependencies = (
-			);
 			productName = MyGoldenTime;
 			productReference = 43F9B3C8281A3FF9005122C7 /* MyGoldenTime.app */;
 			productType = "com.apple.product-type.application";
@@ -139,8 +164,6 @@
 				Base,
 			);
 			mainGroup = 43F9B3BF281A3FF9005122C7;
-			packageReferences = (
-			);
 			productRefGroup = 43F9B3C9281A3FF9005122C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -161,6 +184,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63D506119C73795CD3CFD24C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D51C0EFA2F606D3992F466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGoldenTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43F9B3C4281A3FF9005122C7 /* Sources */ = {
@@ -297,6 +362,7 @@
 		};
 		43F9B3D7281A3FFB005122C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +392,7 @@
 		};
 		43F9B3D8281A3FFB005122C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
