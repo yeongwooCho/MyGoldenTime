@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4316BF052823B158005FD8A0 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4316BF042823B158005FD8A0 /* RecordView.swift */; };
 		43429D36282221FE005E7595 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D35282221FE005E7595 /* Line.swift */; };
 		43429D3828222591005E7595 /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43429D3728222591005E7595 /* LineCharts.swift */; };
 		43A99F7D281ED38D00207317 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A99F7C281ED38D00207317 /* MainTabView.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoldenTime.debug.xcconfig"; path = "Target Support Files/Pods-MyGoldenTime/Pods-MyGoldenTime.debug.xcconfig"; sourceTree = "<group>"; };
 		3CF467668293CB4B6DF93F43 /* Pods_MyGoldenTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyGoldenTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316BF042823B158005FD8A0 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		43429D35282221FE005E7595 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		43429D3728222591005E7595 /* LineCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
 		43A99F7C281ED38D00207317 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				43AE651C2820DB0600C8513C /* ChartsView.swift */,
 				43429D35282221FE005E7595 /* Line.swift */,
 				43429D3728222591005E7595 /* LineCharts.swift */,
+				4316BF042823B158005FD8A0 /* RecordView.swift */,
 			);
 			path = MyGoldenTime;
 			sourceTree = "<group>";
@@ -106,7 +109,6 @@
 				025141EF6CFDFAE7EB2096D5 /* Pods-MyGoldenTime.debug.xcconfig */,
 				97BF254C42BBD295BF425573 /* Pods-MyGoldenTime.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -233,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43429D3828222591005E7595 /* LineCharts.swift in Sources */,
+				4316BF052823B158005FD8A0 /* RecordView.swift in Sources */,
 				43F9B3CC281A3FF9005122C7 /* MyGoldenTimeApp.swift in Sources */,
 				43AE65182820BAF500C8513C /* SettingView.swift in Sources */,
 				43AE651D2820DB0600C8513C /* ChartsView.swift in Sources */,
