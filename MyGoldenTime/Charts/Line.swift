@@ -9,16 +9,13 @@ import SwiftUI
 import Charts
 
 struct Line: UIViewRepresentable {
-    var entries: [StateInfo] = [
-        StateInfo(date: "1", hour: 13, energy: 1, consentration: 3),
-        StateInfo(date: "3", hour: 15, energy: 3, consentration: 2),
-        StateInfo(date: "5", hour: 12, energy: 2, consentration: 1),
-        StateInfo(date: "7", hour: 10, energy: 5, consentration: 5),
-        StateInfo(date: "9", hour: 8, energy: 5, consentration: 4),
-        StateInfo(date: "11", hour: 7, energy: 4, consentration: 5),
-        StateInfo(date: "13", hour: 6, energy: 2, consentration: 5),
-        
-    ]
+    var entries: [StateInfo] = []
+    
+    init() {
+        (7...24).forEach { date in
+            entries.append(StateInfo(date: "\(date)", hour: (7...24).randomElement()!, energy: (0...5).randomElement()!, consentration: (0...5).randomElement()!))
+        }
+    }
     
     func makeUIView(context: Context) -> LineChartView {
         let chart = LineChartView()
